@@ -16,5 +16,8 @@ describe('svg-chest', function() {
     it( 'should return an object', function() {
       expect( svgChest.startSVG() ).to.be.an('object');
     });
+    it( 'should have an svg property', function() {
+      expect( svgChest.startSVG() ).to.have.property('svg');
+    });
   });
 });

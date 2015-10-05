@@ -1,5 +1,5 @@
 module.exports = {
   startSVG: function() {
-    return {}
+    return { svg: false }
   }
 };
